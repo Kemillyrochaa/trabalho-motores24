@@ -20,6 +20,12 @@ public class Player : MonoBehaviour
     }
     
     private void OnCollisionEnter(Collision collision)
+    {
+       if (collision.gameObject.tag == "chão")
+       {
+        noChao = true;
+       }
+    }
 
     // Update is called once per frame
     void Update()
@@ -28,7 +34,17 @@ public class Player : MonoBehaviour
         float v = Input.GetAxis("Vertical");
         Vector3 direcao = new Vector3(h, 0, v);
         rb.AddForce(direcao * velocidade * Time.deltaTime, ForceMode.Impulse);
-        if (transform.position.y < -5);
+    
+        
+        
+        if (Input.GetKeyDown(KeyCode.Space) && noChao)
+        {
+            rb.AddForce(Vector3.up * forcaPulo,ForceMode.Impulse);
+            noChao = false;
+        }
+
+        
+        if (transform.position.y < -5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
