@@ -30,8 +30,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        float h = Input.GetAxis("Horizontal"); //-1 esquerda,0 nada, 1 direita
+        float v = Input.GetAxis("Vertical");// -1 pra tras, 1 pra frente
         Vector3 direcao = new Vector3(h, 0, v);
         rb.AddForce(direcao * velocidade * Time.deltaTime, ForceMode.Impulse);
     
