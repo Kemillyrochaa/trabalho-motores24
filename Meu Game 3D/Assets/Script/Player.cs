@@ -8,7 +8,8 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public int velocidade = 10;
-    Rigidbody rb;
+   private Rigidbody rb;
+   private AudioSource source;
 
     public int forcaPulo = 10;
 
@@ -16,7 +17,9 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("START");
         TryGetComponent(out rb); 
+        TryGetComponent(out source);
     }
     
     private void OnCollisionEnter(Collision collision)
@@ -39,6 +42,8 @@ public class Player : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Space) && noChao)
         {
+            //pulo
+            source.Play();
             rb.AddForce(Vector3.up * forcaPulo,ForceMode.Impulse);
             noChao = false;
         }

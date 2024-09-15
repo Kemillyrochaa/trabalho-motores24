@@ -18,6 +18,7 @@ private void OnTriggerEnter(Collider other)
 {
     if(other.tag == "Player")
     {
+        FindObjectOfType<GameManager>().Subtrairmoedas(1);
         Destroy(gameObject);
     }
 }
