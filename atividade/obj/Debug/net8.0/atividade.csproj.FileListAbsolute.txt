@@ -1,0 +1,15 @@
+C:\Users\kemilly\trabalho-motores24\atividade\bin\Debug\net8.0\atividade.exe
+C:\Users\kemilly\trabalho-motores24\atividade\bin\Debug\net8.0\atividade.deps.json
+C:\Users\kemilly\trabalho-motores24\atividade\bin\Debug\net8.0\atividade.runtimeconfig.json
+C:\Users\kemilly\trabalho-motores24\atividade\bin\Debug\net8.0\atividade.dll
+C:\Users\kemilly\trabalho-motores24\atividade\bin\Debug\net8.0\atividade.pdb
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.AssemblyInfoInputs.cache
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.AssemblyInfo.cs
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.csproj.CoreCompileInputs.cache
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.sourcelink.json
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.dll
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\refint\atividade.dll
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.pdb
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\atividade.genruntimeconfig.cache
+C:\Users\kemilly\trabalho-motores24\atividade\obj\Debug\net8.0\ref\atividade.dll
